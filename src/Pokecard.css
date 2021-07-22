@@ -1,0 +1,52 @@
+.Pokecard {
+  width: 200px;
+  height: 300px;
+  background-color: rgb(184, 179, 179);  
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Pokecard.fire {
+  background-image: url("https://i.pinimg.com/236x/eb/5e/63/eb5e633e9f36e1500611fe6bacdc7272.jpg");
+}
+.Pokecard.bug {
+  background-image: url("https://images.vexels.com/media/users/3/157149/raw/5ed9149356d9abecb4713a0dca4fa46b-diseno-de-fondo-de-la-selva.jpg");
+}
+.Pokecard.normal {
+  background-image: url("https://previews.123rf.com/images/bankrx/bankrx1611/bankrx161100226/68867269-fondo-agrietado-de-la-tierra-seca-de-color-marr%C3%B3n-efecto-de-calentamiento-global.jpg");
+}
+.Pokecard.water {
+  background-image: url("https://i.pinimg.com/originals/f9/e3/13/f9e3133a072fe1c2398ee1880d517130.jpg");
+}
+.Pokecard.flying {
+  background-image: url("https://img.freepik.com/vector-gratis/sol-brilla-cielo-azul-nubes-fondo-realista_1284-10467.jpg?size=626&ext=jpg");
+}
+.Pokecard.electric {
+  background-image: url("https://elements-video-cover-images-0.imgix.net/files/32515318/ELECTRICITY+BACKGROUND+LOOP2+590.jpg?auto=compress%2Cformat&fit=min&h=338&w=600&s=266c3069f0dad1e9e878dd37254a6bb1");
+}
+.Pokecard.poison {
+  background-image: url("https://image.freepik.com/foto-gratis/textura-fondo-verde-veneno-profundo-acuarela_145343-348.jpg");
+}
+
+.Pokecard-title {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.Pokecard-image {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+  transition: all ease 500ms;
+}
+.Pokecard-image:hover {  
+  transform: scale(1.3);
+}
+
+.Pokecard-data {
+  color: white;
+  font-weight: bold;
+}
